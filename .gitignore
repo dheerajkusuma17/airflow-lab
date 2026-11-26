@@ -1,0 +1,10 @@
+# Airflow creates these while running; they are not source code
+logs/
+working_data/
+plugins/
+# config/ holds airflow.cfg, which Airflow generates with secret keys inside. Never push it.
+config/
+# Local settings (user ID, keys). Each person creates their own (see README)
+.env
+# Python cache
+__pycache__/

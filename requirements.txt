@@ -1,0 +1,4 @@
+# Machine learning models and scores
+scikit-learn>=1.3
+# Tables of data
+pandas
